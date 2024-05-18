@@ -3,14 +3,13 @@ import { Text, View, TouchableOpacity, Alert, Image, Switch, Dimensions, FlatLis
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { LinearGradient } from "expo-linear-gradient";
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
-import { faCheckSquare as solidCheckSquare } from 
+import { faCheckSquare as solidCheckSquare } from '@fortawesome/free-solid-svg-icons';
 import { faSquare as regularSquare } from '@fortawesome/free-regular-svg-icons';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import NumericInput from 'react-native-numeric-input'
 import request from '../config/axiosConfig';
 import numeral from 'numeral'
-import * as Font from 'expo-font';
-import styles from '../styles/Cart.Style';
+
 
 const Cart = ({ navigation }) => {
     const screenWidth = Dimensions.get('window').width;
