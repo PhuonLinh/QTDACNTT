@@ -3,7 +3,7 @@ import { Text, View, TouchableOpacity, Alert, Image, Switch, Dimensions, FlatLis
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { LinearGradient } from "expo-linear-gradient";
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
-import { faCheckSquare as solidCheckSquare } from '@fortawesome/free-solid-svg-icons';
+import { faCheckSquare as solidCheckSquare } from 
 import { faSquare as regularSquare } from '@fortawesome/free-regular-svg-icons';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import NumericInput from 'react-native-numeric-input'
