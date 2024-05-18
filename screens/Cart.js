@@ -9,7 +9,8 @@ import Icon from 'react-native-vector-icons/FontAwesome5';
 import NumericInput from 'react-native-numeric-input'
 import request from '../config/axiosConfig';
 import numeral from 'numeral'
-
+import * as Font from 'expo-font';
+import styles from '../styles/Cart.Style';
 
 const Cart = ({ navigation }) => {
     const screenWidth = Dimensions.get('window').width;
