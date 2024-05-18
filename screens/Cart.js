@@ -15,6 +15,7 @@ import styles from '../styles/Cart.Style';
 
 
 
+
 const Cart = ({ navigation }) => {
     const screenWidth = Dimensions.get('window').width;
     const [isEnabled, setIsEnabled] = useState(false);
