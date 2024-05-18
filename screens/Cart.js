@@ -11,7 +11,6 @@ import request from '../config/axiosConfig';
 import numeral from 'numeral'
 import * as Font from 'expo-font';
 import styles from '../styles/Cart.Style';
-
 /*hoan tat thay the*/
 
 const Cart = ({ navigation }) => {
